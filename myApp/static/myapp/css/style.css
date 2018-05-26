@@ -1,0 +1,26 @@
+.calendar_entry {
+    background-color: #eee;
+
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: table;
+    /* display: grid; */
+}
+.parent_center {
+    display: table-cell;
+    vertical-align: middle;
+}
+.child_center {
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+#form_center {
+    text-align: center;
+    display: table;
+    margin: auto;
+}
